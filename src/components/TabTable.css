@@ -1,0 +1,26 @@
+.TabTable {
+    margin-top: 20px;
+}
+
+.TabTable table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.TabTable th, .TabTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.TabTable input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.TabTable button {
+    margin-top: 10px;
+}
+
+.TabTable .readOnly {
+    background-color: #f0f0f0;
+}

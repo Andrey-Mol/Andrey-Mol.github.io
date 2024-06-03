@@ -1,0 +1,21 @@
+.DragDrop {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.HorizontalList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.TabItemDrag {
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 0 5px;
+    user-select: none;
+    cursor: grab;
+}
